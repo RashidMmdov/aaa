@@ -1,0 +1,266 @@
+header .contac-register {
+  height: 40px;
+  background-color: #005AFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .contac-register .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .contac-register a {
+  text-decoration: none;
+}
+
+header .contac-register .contactTel,
+header .contac-register .Login-Register {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .contac-register .left {
+  left: 0;
+}
+
+header .contac-register .left a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .contac-register .left a span {
+  margin-right: 10px;
+}
+
+header .contac-register .right {
+  right: 0;
+}
+
+header .contac-register .right span {
+  margin-left: 5px;
+}
+
+header .contac-register span {
+  color: white;
+}
+
+header .contac-register span a {
+  color: white;
+}
+
+header .contac-register span a:hover {
+  color: #89a7e0;
+}
+
+header .navBar {
+  height: 67px;
+}
+
+header .navBar .container {
+  height: 100%;
+}
+
+header .navBar .container .Entrust,
+header .navBar .container .navLinks,
+header .navBar .container .Icon,
+header .navBar .container .row {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navBar .navLinks ul {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .navBar .navLinks ul li {
+  list-style: none;
+}
+
+header .navBar .navLinks ul li .color {
+  color: #ffab03;
+}
+
+header .navBar .navLinks ul li a {
+  text-decoration: none;
+  color: #002535;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .navBar .navLinks ul li a:hover {
+  color: #ffab03;
+}
+
+header .navBar .Entrust {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+header .navBar .Entrust a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5px;
+  font-size: 14px;
+  font-family: RM;
+  padding: 13px 32px;
+  border-radius: 5px;
+}
+
+main .image {
+  background-image: url(../Images/Services/servicesBG.webp);
+  height: 280px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .Service {
+  margin-top: 30px;
+}
+
+main .Service .large {
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 54, 78, 0.2);
+}
+
+main .Service .small {
+  font-size: 36px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #003087;
+  text-align: left;
+  margin-top: -72px;
+}
+
+main .Service .card {
+  margin-top: 25px;
+  text-align: center;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  -webkit-box-shadow: 0px 6px 13px 13px rgba(0, 0, 0, 0.09);
+          box-shadow: 0px 6px 13px 13px rgba(0, 0, 0, 0.09);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+main .Service .card:hover {
+  background-color: #005AFF;
+}
+
+main .Service .card:hover .icon {
+  display: none;
+}
+
+main .Service .card:hover .description {
+  color: #fff;
+  margin-bottom: 10px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+main .Service .card p {
+  font-size: 20px;
+}
+
+main .Description {
+  margin-top: 120px;
+}
+
+main .Description .text {
+  margin-top: 100px;
+  margin-right: 330px;
+}
+
+main .Description .text h5 {
+  font-size: 20px;
+}
+
+main .Description .text p {
+  font-size: 18px;
+}
+
+footer .End {
+  background-color: #f1f1f1;
+  margin-top: 125px;
+  height: auto;
+}
+
+footer .End .container {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .End .socialNet ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+footer .End .socialNet ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+footer .End .socialNet ul li a {
+  color: #a3a3a3;
+}
+
+footer .End .socialNet ul li a:hover {
+  color: #005AFF;
+}
+
+footer .End .col-lg-2 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .End .col-lg-2 ul li {
+  list-style: none;
+}
+
+footer .End .col-lg-2 ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .End .col-lg-2 ul li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=services.css.map */

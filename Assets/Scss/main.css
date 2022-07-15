@@ -1,0 +1,636 @@
+header .contac-register {
+  height: 40px;
+  background-color: #005AFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .contac-register .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .contac-register a {
+  text-decoration: none;
+}
+
+header .contac-register .contactTel,
+header .contac-register .Login-Register {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .contac-register .left {
+  left: 0;
+}
+
+header .contac-register .left a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .contac-register .left a span {
+  margin-right: 10px;
+}
+
+header .contac-register .right {
+  right: 0;
+}
+
+header .contac-register .right span {
+  margin-left: 5px;
+}
+
+header .contac-register span {
+  color: white;
+}
+
+header .contac-register span a {
+  color: white;
+}
+
+header .contac-register span a:hover {
+  color: #89a7e0;
+}
+
+header .navBar {
+  height: 67px;
+}
+
+header .navBar .container {
+  height: 100%;
+}
+
+header .navBar .container .Entrust,
+header .navBar .container .navLinks,
+header .navBar .container .Icon,
+header .navBar .container .row {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navBar .navLinks ul {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .navBar .navLinks ul li {
+  list-style: none;
+}
+
+header .navBar .navLinks ul li a {
+  text-decoration: none;
+  color: #002535;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .navBar .navLinks ul li a:hover {
+  color: #ffab03;
+}
+
+header .navBar .Entrust {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+header .navBar .Entrust a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5px;
+  font-size: 14px;
+  font-family: RM;
+  padding: 13px 32px;
+  border-radius: 5px;
+}
+
+main .hero {
+  height: 500px;
+  background-image: url(../Images/Hero/heroBg.png);
+  background-size: cover;
+  background-position-x: right;
+}
+
+main .hero .container {
+  height: 100%;
+}
+
+main .hero .container .heroText img {
+  margin-top: 170px;
+  width: 340px;
+  height: 216px;
+}
+
+main .hero .container .heroText h1 {
+  font-size: 13px;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main .hero .container .Calculatior .Scales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .hero .container .Calculatior .Scales .TotalKq {
+  background-color: #ffab03;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .hero .container .Calculatior .Scales .TotalKq span {
+  color: white;
+}
+
+main .hero .container .kargoPeymant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .hero .container .kargoPeymant .selectColum select {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+main .hero .container .kargoPeymant .price {
+  background-color: #005AFF;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .hero .container .kargoPeymant .price span {
+  color: white;
+}
+
+main .hero .container .inputColum input {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+main .hero .container .valueKq,
+main .hero .container .valuePrice {
+  margin-left: 40px;
+}
+
+main .hero .container .card {
+  border: none;
+  padding-bottom: 30px;
+  -webkit-box-shadow: 5px 13px 14px 5px rgba(0, 0, 0, 0.13);
+          box-shadow: 5px 13px 14px 5px rgba(0, 0, 0, 0.13);
+}
+
+main .aboutProcess {
+  margin-top: 200px;
+  text-align: center;
+}
+
+main .aboutProcess .large {
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 54, 78, 0.2);
+}
+
+main .aboutProcess .small {
+  font-size: 36px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #003087;
+  text-align: center;
+  margin-top: -72px;
+}
+
+main .aboutProcess .showProcess .title {
+  position: relative;
+}
+
+main .aboutProcess .showProcess .title span {
+  color: rgba(0, 95, 181, 0.2);
+  font-size: 60px;
+  position: absolute;
+}
+
+main .aboutProcess .showProcess .title .number1 {
+  margin: -31px -120px;
+}
+
+main .aboutProcess .showProcess .title .number2 {
+  margin: -31px -81px;
+}
+
+main .aboutProcess .showProcess .title .number3 {
+  margin: -33px -131px;
+}
+
+main .aboutProcess .showProcess .title p {
+  font-size: 21px;
+}
+
+main .aboutProcess .showProcess i {
+  font-size: 25px;
+  color: gray;
+}
+
+main .aboutProcess .showProcess i .arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .aboutStarex {
+  margin-top: 120px;
+}
+
+main .aboutStarex .IntoImageDesc img {
+  position: absolute;
+}
+
+main .aboutStarex .IntoImageDesc .img-bg {
+  position: absolute;
+  width: 590px;
+  margin-left: -180px;
+  height: 420px;
+  background-image: url(../Images/AboutStarex/aboutSvg.svg);
+}
+
+main .aboutStarex .IntoImageDesc .img-1 {
+  margin-top: 50px;
+  margin-left: 23px;
+  width: 510px;
+  height: 320px;
+  -webkit-box-shadow: 5px 13px 14px 5px rgba(0, 0, 0, 0.13);
+          box-shadow: 5px 13px 14px 5px rgba(0, 0, 0, 0.13);
+}
+
+main .aboutStarex .IntoImageDesc .img-2 {
+  margin-left: 237px;
+  margin-top: 204px;
+  width: 396px;
+  -webkit-box-shadow: 5px 13px 14px 5px rgba(0, 0, 0, 0.13);
+          box-shadow: 5px 13px 14px 5px rgba(0, 0, 0, 0.13);
+}
+
+main .aboutStarex .text .large {
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 54, 78, 0.2);
+}
+
+main .aboutStarex .text .small {
+  font-size: 36px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #003087;
+  text-align: center;
+  margin-top: -72px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .aboutStarex .text .small p {
+  text-align: left;
+}
+
+main .aboutStarex .text .desc {
+  font-size: 20px;
+  color: #00172c;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+main .Service {
+  margin-top: 200px;
+}
+
+main .Service .large {
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 54, 78, 0.2);
+}
+
+main .Service .small {
+  font-size: 36px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #003087;
+  text-align: left;
+  margin-top: -72px;
+}
+
+main .Service .card {
+  margin-top: 25px;
+  text-align: center;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  -webkit-box-shadow: 0px 6px 13px 13px rgba(0, 0, 0, 0.09);
+          box-shadow: 0px 6px 13px 13px rgba(0, 0, 0, 0.09);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+main .Service .card:hover {
+  background-color: #005AFF;
+}
+
+main .Service .card:hover .icon {
+  display: none;
+}
+
+main .Service .card:hover .description {
+  color: #fff;
+  margin-bottom: 10px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+main .Service .card p {
+  font-size: 20px;
+}
+
+main .foringCountry {
+  margin-top: 170px;
+}
+
+main .foringCountry .col-lg-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .foringCountry .card {
+  border: none;
+}
+
+main .foringCountry .card .image img {
+  width: 325px;
+}
+
+main .foringCountry .slide {
+  width: 325px;
+  -webkit-box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.3);
+}
+
+main .foringCountry .text strong {
+  font-size: 22px;
+}
+
+main .foringCountry .text .cardBody span {
+  color: #666666;
+  font-size: 18px;
+}
+
+main .foringCountry .text .cardBody p {
+  font-size: 18px;
+}
+
+main .foringCountry .BG {
+  background-image: url(../Images/Carusel/bg.png);
+  background-size: 710px;
+  background-repeat: no-repeat;
+}
+
+main .foringCountry .BG button {
+  background-color: #ffab03;
+  border: none;
+  border-radius: 50%;
+  padding: 7px;
+  position: absolute;
+}
+
+main .foringCountry .BG .USA {
+  margin: 170px;
+}
+
+main .foringCountry .BG .TRY {
+  margin: 185px 385px;
+}
+
+main .foringCountry .BG .CHN {
+  margin: 185px 520px;
+}
+
+main .Advantages {
+  text-align: center;
+  margin-top: 150px;
+}
+
+main .Advantages .title p {
+  font-size: 36px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #003087;
+}
+
+main .Advantages .card {
+  padding: 50px 0px;
+  border: none;
+  -webkit-box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.3);
+}
+
+main .Advantages .card .icon {
+  color: #005AFF;
+}
+
+main .Advantages .card p {
+  font-size: 22px;
+}
+
+main .Advantages .card .hiden {
+  font-size: 14px;
+  display: none;
+}
+
+main .Advantages .card:hover {
+  background-color: #005AFF;
+}
+
+main .Advantages .card:hover .icon, main .Advantages .card:hover p {
+  color: white;
+}
+
+main .Advantages .card:hover .hiden {
+  display: block;
+}
+
+main .Advantages .first {
+  padding: 32px 0px;
+}
+
+main .News {
+  margin-top: 120px;
+  text-align: center;
+}
+
+main .News .title {
+  font-size: 36px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #003087;
+}
+
+main .News .View {
+  text-align: end;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main .News .col-lg-4 a {
+  text-decoration: none;
+}
+
+main .News .col-lg-4 a .card {
+  margin-top: 60px;
+  border: none;
+  -webkit-box-shadow: 1px 5px 7px 5px rgba(0, 0, 0, 0.08);
+          box-shadow: 1px 5px 7px 5px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+main .News .col-lg-4 a .card:hover {
+  -webkit-box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.3);
+}
+
+main .News .col-lg-4 a .card .image {
+  padding-bottom: 50%;
+}
+
+main .News .col-lg-4 a .card .text .color {
+  font-size: 20px;
+  color: #003087;
+}
+
+main .News .col-lg-4 a .card .text span {
+  color: #a3a3a3;
+}
+
+main .News .col-lg-4 a .card .text .desc p {
+  color: black;
+}
+
+main .News .col-lg-4 a .card .text .arrow {
+  text-align: end;
+  font-size: 20px;
+  color: black;
+}
+
+footer .End {
+  background-color: #f1f1f1;
+  margin-top: 125px;
+  height: auto;
+}
+
+footer .End .container {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .End .socialNet ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+footer .End .socialNet ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+footer .End .socialNet ul li a {
+  color: #a3a3a3;
+}
+
+footer .End .socialNet ul li a:hover {
+  color: #005AFF;
+}
+
+footer .End .col-lg-2 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .End .col-lg-2 ul li {
+  list-style: none;
+}
+
+footer .End .col-lg-2 ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .End .col-lg-2 ul li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=main.css.map */

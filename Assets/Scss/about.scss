@@ -1,0 +1,273 @@
+header {
+    
+    .contac-register {
+        height: 40px;
+        background-color: #005AFF;
+        display: flex;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .contactTel,
+        .Login-Register {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .left {
+            left: 0;
+
+            a {
+                display: flex;
+
+                span {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .right {
+            right: 0;
+
+            span {
+                margin-left: 5px;
+            }
+        }
+
+        span {
+            color: white;
+
+            a {
+                color: white;
+
+                &:hover {
+                    color: rgb(137, 167, 224);
+                }
+            }
+        }
+    }
+
+    .navBar {
+        height: 67px;
+
+        .container {
+            height: 100%;
+
+            .Entrust,
+            .navLinks,
+            .Icon,
+            .row {
+                height: 100%;
+                align-items: center;
+            }
+        }
+
+        .navLinks {
+            ul {
+                margin-top: 15px;
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    list-style: none;
+                    .color{
+                        color: #ffab03;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: #002535;
+                        font-size: 16px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                        &:hover {
+                            color: #ffab03;
+                        }
+                    }
+                }
+            }
+        }
+
+        .Entrust {
+
+            display: flex;
+            justify-content: end;
+
+            a {
+                align-items: center;
+                margin-right: 5px;
+                font-size: 14px;
+                font-family: RM;
+                padding: 13px 32px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+main{
+    .aboutStarex{
+       
+        .IntoImageDesc{
+            img{
+                
+                position: absolute;
+            }
+            .img-bg{
+                position: absolute;
+                width: 590px;
+                 margin-left: -180px;
+                height: 420px;
+                background-image: url(../Images/AboutStarex/aboutSvg.svg);
+                
+            }
+            .img-1{
+                margin-top: 50px;
+                margin-left: 34px;
+                width: 450px;
+                height: 300px;
+                box-shadow: 5px 13px 14px 5px rgba(0,0,0,0.13)
+                ;
+            }
+            .img-2{
+                margin-left: 264px;
+                margin-top: 185px;
+                width: 315px;
+                box-shadow: 5px 13px 14px 5px rgba(0,0,0,0.13)
+                ;
+            }
+        }
+    
+        .text{
+            .large {
+                font-size: 80px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #fff;
+    
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: rgba(0, 54, 78, .2);
+            }
+    
+            .small {
+                font-size: 36px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #003087;
+                text-align: center;
+                margin-top: -72px;
+                align-items: flex-start;
+                p{
+                    text-align: left;
+                }
+            }
+            .desc{
+                font-size: 20px;
+                color: #00172c;
+                
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+    }
+    .aboutCard{
+        margin-top: 140px;
+        
+        .card{
+            height: 220px;
+            border: none;
+            box-shadow: 1px 5px 7px 5px rgba(0,0,0,0.08)
+            ;
+            &:hover{
+                background-color: #003087;
+               color: white;
+               svg{
+                color: white;
+               }
+               .title{
+                p{
+                    color: white;
+                }
+               }
+
+            }
+            .container{
+                height: 100%;
+                padding: 35px;                
+                align-items: center;
+            }
+            .title{
+                p{
+                    font-size: 20px;
+                    color: #003087;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+            ul{
+                li{
+                    list-style: none;
+                    font-size: 18px;
+                    svg{
+                        color: #003087;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+footer{
+    .End{
+        background-color: #f1f1f1;
+        margin-top: 125px;
+        height: auto;
+        .container{
+            display: grid;
+            height: 100%;
+            align-items: center;
+        }
+        .socialNet{
+            ul{
+                display: flex;
+                padding: 0;
+                li{
+                    list-style: none;
+                    margin-right: 20px;
+                    a{
+                        color: #a3a3a3;
+                        
+                       
+                        &:hover{
+                            color: #005AFF;
+                        }
+                    }
+                }
+            }
+        }
+        .col-lg-2{
+            p{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        color: black;
+                        text-decoration: none;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
